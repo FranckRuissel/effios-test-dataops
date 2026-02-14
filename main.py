@@ -52,7 +52,7 @@ def main():
     print(bonus.head(5))
 
     print("\n" + "="*50)
-    logger.info("Fin de l'exécution du test pratique.")
+    logger.info("Fin de l'exécution")
 
 if __name__ == "__main__":
     main()

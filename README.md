@@ -54,7 +54,7 @@ python main.py
 * **EB1 :** Top 3 des semaines records pour l'UAI `0010024W` en 2025.
 * **EB2 :** Agrégation des données par UAI avec choix de granularité (Année/Mois).
 * **EB3 :** Visualisation graphique de l'évolution mensuelle des visites par tablette, smartphone et ordinateur.
-* **EB4 (Libre) :** Analyse du **Mobile First Index** — Calcul du ratio d'usage des terminaux mobiles par académie pour mesurer la mobilité des usages régionaux.
+* **EB4 (Libre) :** Analyse du **Mobile First Index** — Calcul du ratio d'usage des terminaux mobiles par académie pour la dépendance aux terminaux mobiles régionaux.  
 
 ## 🛠️ Expertise DataOps
 

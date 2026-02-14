@@ -63,16 +63,7 @@ python main.py
 * **Sécurité :** Gestion des accès via variables d'environnement pour protéger les credentials.
 * **Logging :** Suivi complet des étapes de chargement et de traitement en console.
 
----
 
 **Développé par :** [Franck Mboutou](https://www.google.com/search?q=https://github.com/FranckRuissel)
 
-*Étudiant en 5ème année Data / Système d'Information*
-
----
-
-### Conseil final pour ton dépôt :
-
-N'oublie pas de créer ton fichier `.gitignore` comme on a vu ensemble. Si Franck (le recruteur) clone ton projet et voit qu'il n'y a pas de fichiers inutiles et que le `main.py` se lance sans erreur du premier coup, tu auras déjà fait une grosse partie du chemin !
-
-Est-ce que tout te semble clair pour ton envoi ?🚀
+*Étudiant en Data a EFREI PARIS *

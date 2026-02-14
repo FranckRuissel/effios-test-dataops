@@ -1,4 +1,4 @@
-# 📊 Analyse des données DNMA - Test Pratique DataOps
+# Analyse des données DNMA - Test Pratique DataOps
 
 ## Contexte
 
@@ -18,7 +18,7 @@ Le projet adopte une structure modulaire, séparant la récupération des donné
 * `.env` : Fichier de configuration pour les secrets (non versionné).
 * `.gitignore` : Exclut les fichiers lourds (CSV), les environnements virtuels (`venv`) et les secrets.
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### 1. Cloner le dépôt
 
@@ -51,14 +51,14 @@ python main.py
 
 ```
 
-## 📈 Expressions de Besoins (EB)
+##  Expressions de Besoins (EB)
 
 * **EB1 :** Top 3 des semaines records pour l'UAI `0010024W` en 2025.
 * **EB2 :** Agrégation des données par UAI avec choix de granularité (Année/Mois).
 * **EB3 :** Visualisation graphique de l'évolution mensuelle des visites par tablette, smartphone et ordinateur.
 * **EB4 (Libre) :** Analyse du **Mobile First Index** — Calcul du ratio d'usage des terminaux mobiles par académie pour la dépendance aux terminaux mobiles régionaux.  
 
-## 🛠️ Expertise DataOps
+##  Expertise DataOps
 
 * **Résilience :** Gestion automatique des erreurs de connexion API avec bascule transparente sur le dataset local.
 * **Data Cleaning :** Préparation robuste des données (typage forcé des dates et numériques, gestion des NaNs).

@@ -6,6 +6,8 @@ Ce projet a été réalisé par **Franck Mboutou** dans le cadre du processus de
 
 L'étude porte sur la fréquentation des services numériques éducatifs, segmentée par type d'appareils, systèmes d'exploitation et navigateurs.
 
+### NB : J'ai rencontré un petit problème technique lors de la création de mon compte sur le site officiel. Pour pouvoir avancer sans attendre, j'ai téléchargé le fichier de données (JDD) directement sur mon ordinateur. Mon code est cependant déjà prêt pour l'API. Pour le tester, il suffit soit d'ajouter votre clé API dans le fichier. env, soit de placer le fichier JDD en local dans le dossier du projet. ####
+
 ## Architecture du Projet
 
 Le projet adopte une structure modulaire, séparant la récupération des données, la logique métier et l'exécution :

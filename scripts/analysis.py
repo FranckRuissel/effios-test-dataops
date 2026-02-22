@@ -22,7 +22,8 @@ class DNMAnalysis:
         # On calcule le total des visites (ordinateur + smartphone + tablette)
         filtre['Nb Visites'] = (filtre['visites_ordinateur'] + 
                                 filtre['visites_smartphone'] + 
-                                filtre['visites_tablette'])
+                                filtre['visites_tablette']+
+                               filtre['visites_autreappareil'])
         
         # On récupère le numéro de la semaine
         filtre['Semaine'] = filtre['debutSemaine'].dt.isocalendar().week
@@ -41,12 +42,12 @@ class DNMAnalysis:
         
         # On choisit si on groupe par mois ou par année
         if granularite.lower() == "mois":
-            filtre['Periode'] = filtre['debutSemaine'].dt.month
+            filtre['Periode'] = filtre['debutSemaine'].dt.strftime('%Y-%m')
         else:
             filtre['Periode'] = filtre['annee']
             
         # Colonnes à additionner
-        cols = ['visites_ordinateur', 'visites_smartphone', 'visites_tablette']
+        cols = ['visites_ordinateur', 'visites_smartphone', 'visites_tablette','visites_autreappareil']
         
         # On fait le calcul total par période
         return filtre.groupby('Periode')[cols].sum()

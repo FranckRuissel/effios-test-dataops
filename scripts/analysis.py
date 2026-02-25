@@ -40,7 +40,7 @@ class DNMAnalysis:
         # On filtre sur l'établissement
         filtre = self.df[self.df['UAI'] == uai].copy()
         
-        # On choisit si on groupe par mois ou par année
+        # On choisit si on groupe par mois ou par année, cette approche est a revoir 
         if granularite.lower() == "mois":
             filtre['Periode'] = filtre['debutSemaine'].dt.strftime('%Y-%m')
         else:
